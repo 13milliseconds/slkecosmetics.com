@@ -510,6 +510,7 @@ class VariantSelects extends HTMLElement {
       this.setUnavailable();
     } else {
       this.updateMedia();
+      this.updateIngredients();
       this.updateURL();
       this.updateVariantInput();
       this.renderProductInfo();
@@ -537,6 +538,16 @@ class VariantSelects extends HTMLElement {
     const parent = newMedia.parentElement;
     parent.prepend(newMedia);
     window.setTimeout(() => { parent.scroll(0, 0) });
+  }
+
+  updateIngredients() {
+    const ingredientsBlocks = document.querySelectorAll('.ingredients-list');
+    if (ingredientsBlocks) {
+      ingredientsBlocks.forEach((ingredientsBlock) => {
+        console.log(this.currentVariant);
+        ingredientsBlock.style.display = ingredientsBlock.classList.contains(this.currentVariant.id) ? "block" : "none";
+      })
+    }
   }
 
   updateURL() {
