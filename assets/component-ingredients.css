@@ -158,9 +158,11 @@
 
 .ingredients__heading {
   margin-bottom: 0;
+  font-weight: 200;
+  text-transform: capitalize;
 }
 
-.ingredients__text p {
-  margin-top: 0;
+.ingredients__text{
+  margin-top: 10px;
   margin-bottom: 1rem;
 }

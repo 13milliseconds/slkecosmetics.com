@@ -157,6 +157,7 @@
 }
 
 .card-information__text {
+  margin-top: 10px;
   display: block;
   padding-right: 1.2rem;
 }
@@ -264,10 +265,10 @@
     transform: scale(1.03);
   }
 
-  .card-wrapper:hover .card-information__text {
+  /* .card-wrapper:hover .card-information__text {
     text-decoration: underline;
     text-underline-offset: 0.3rem;
-  }
+  } */
 
   .card--search img {
     transition: transform var(--duration-default) ease;

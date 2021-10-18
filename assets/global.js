@@ -556,6 +556,7 @@ class VariantSelects extends HTMLElement {
   }
 
   updateVariantInput() {
+    console.log(this.dataset);
     const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment`);
     const variantLabel = document.getElementById('variantLabel');
     variantLabel.innerHTML = this.currentVariant.title;

@@ -19,3 +19,7 @@
     margin-bottom: -1rem;
   }
 }
+
+.product-information__description{
+  font-size: .8em;
+}
