@@ -777,7 +777,30 @@ a.product__text {
 }
 
 /* product-card-shop */
+.product-card-shop{
+  margin-bottom: 100px;
+}
+
+.product-card-shop .product__media-wrapper{
+  max-width: 200px;
+  margin-bottom: 20px;
+}
+
 .product-card-shop img{
   max-width: 100%;
   height: auto;
+}
+
+.product-card-shop .product-background{
+  position: relative;
+  max-width: 400px;
+  margin: auto;
+}
+
+.product-card-shop .product-background-2{
+  max-width: 300px;
+  position: absolute;
+  z-index: -1;
+  top: -100px;
+  right: -100px;
 }
