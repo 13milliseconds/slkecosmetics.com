@@ -58,16 +58,16 @@
         "full_width": true
       }
     },
-    "1635267890772c2306": {
-      "type": "ingredients-block",
+    "1635268816378b30a0": {
+      "type": "scent-block",
       "blocks": {
-        "1635267890772c2306-0": {
+        "1635268816378b30a0-0": {
           "type": "heading",
           "settings": {
-            "heading": "Ingredient Name"
+            "heading": "Istanbul"
           }
         },
-        "1635267890772c2306-1": {
+        "1635268816378b30a0-1": {
           "type": "text",
           "settings": {
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
@@ -75,13 +75,68 @@
         }
       },
       "block_order": [
-        "1635267890772c2306-0",
-        "1635267890772c2306-1"
+        "1635268816378b30a0-0",
+        "1635268816378b30a0-1"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
+        "image2": "shopify:\/\/shop_images\/lavender.png",
         "height": "adapt",
-        "color_scheme": "background-1",
-        "layout": "image_first"
+        "color_scheme": "istanbul"
+      }
+    },
+    "16352688370b435366": {
+      "type": "scent-block",
+      "blocks": {
+        "16352688370b435366-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "London"
+          }
+        },
+        "16352688370b435366-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16352688370b435366-0",
+        "16352688370b435366-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
+        "image2": "shopify:\/\/shop_images\/lavender.png",
+        "height": "adapt",
+        "color_scheme": "london"
+      }
+    },
+    "16352694067d06892d": {
+      "type": "scent-block",
+      "blocks": {
+        "16352694067d06892d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Delhi"
+          }
+        },
+        "16352694067d06892d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16352694067d06892d-0",
+        "16352694067d06892d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
+        "image2": "shopify:\/\/shop_images\/lavender.png",
+        "height": "adapt",
+        "color_scheme": "newdelhi"
       }
     }
   },
@@ -89,6 +144,8 @@
     "main",
     "1635267658463bed29",
     "16352678876692d1a3",
-    "1635267890772c2306"
+    "1635268816378b30a0",
+    "16352688370b435366",
+    "16352694067d06892d"
   ]
 }
