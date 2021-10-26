@@ -31,6 +31,7 @@
           "logo_width": 70,
           "logo_position": "middle-left",
           "menu": "main-menu",
+          "menu-right": "top-right",
           "show_line_separator": false,
           "enable_sticky_header": true
         }
