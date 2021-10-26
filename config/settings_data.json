@@ -27,16 +27,21 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo_width": 100,
+          "logo_width": 110,
           "logo_position": "middle-left",
           "menu": "main-menu",
-          "show_line_separator": true,
+          "show_line_separator": false,
           "enable_sticky_header": true
         }
       },
       "footer": {
         "type": "footer",
         "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#313131",
+          "color_footer_text": "#f5f5ee",
+          "show_locale_selector": false,
+          "show_currency_selector": true
         }
       }
     },
