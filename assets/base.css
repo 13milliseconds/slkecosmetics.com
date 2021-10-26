@@ -1719,8 +1719,8 @@ input[type='checkbox'] {
   }
 
   .header--middle-left {
-    grid-template-areas: 'heading navigation icons';
-    grid-template-columns: auto 1fr auto;
+    grid-template-areas: 'navigation heading icons';
+    grid-template-columns: 350px 2fr 350px;
     column-gap: 2rem;
   }
 
@@ -1786,9 +1786,13 @@ input[type='checkbox'] {
 
   .header__heading,
   .header__heading-link {
-    justify-self: start;
+    place-self: center;
   }
 
+  .header--middle-left li:nth-child(3){
+    display: none;
+  }
+  
   .header--top-center .header__heading-link,
   .header--top-center .header__heading {
     justify-self: center;
@@ -1800,6 +1804,7 @@ input[type='checkbox'] {
   display: flex;
   grid-area: icons;
   justify-self: end;
+  align-items: center;
 }
 .header__icons .header__inline-menu{
   text-align: right;
