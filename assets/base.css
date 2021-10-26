@@ -1801,6 +1801,9 @@ input[type='checkbox'] {
   grid-area: icons;
   justify-self: end;
 }
+.header__icons .header__inline-menu{
+  text-align: right;
+}
 
 .header__icon:not(.header__icon--summary),
 .header__icon span {
@@ -1978,6 +1981,7 @@ details[open] > .header__icon--menu .icon-hamburger {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
+  text-transform: uppercase;
 }
 
 .header--top-center .header__inline-menu,

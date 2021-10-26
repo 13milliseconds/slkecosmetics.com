@@ -27,7 +27,8 @@
       "header": {
         "type": "header",
         "settings": {
-          "logo_width": 110,
+          "logo": "shopify:\/\/shop_images\/SLKE-logo-500.png",
+          "logo_width": 70,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "show_line_separator": false,
@@ -36,12 +37,42 @@
       },
       "footer": {
         "type": "footer",
+        "blocks": {
+          "82dced95-5d43-44ea-aacb-e355d5cd91e2": {
+            "type": "link_list",
+            "settings": {
+              "heading": "About",
+              "menu": "footer"
+            }
+          },
+          "49036128-e061-41e7-9f4c-844c05030001": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Support",
+              "menu": "footer-support"
+            }
+          },
+          "98ce7115-36dd-4e2e-a09f-faeac96e9c6f": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Follow",
+              "menu": "footer-follow"
+            }
+          }
+        },
+        "block_order": [
+          "82dced95-5d43-44ea-aacb-e355d5cd91e2",
+          "49036128-e061-41e7-9f4c-844c05030001",
+          "98ce7115-36dd-4e2e-a09f-faeac96e9c6f"
+        ],
         "settings": {
-          "show_payment_icons": false,
-          "color_footer_bg": "#313131",
-          "color_footer_text": "#f5f5ee",
-          "show_locale_selector": false,
-          "show_currency_selector": true
+          "color_scheme": "accent-2",
+          "newsletter_enable": true,
+          "newsletter_heading": "Subscribe to our emails",
+          "show_social": false,
+          "enable_country_selector": false,
+          "enable_language_selector": false,
+          "payment_enable": false
         }
       }
     },
