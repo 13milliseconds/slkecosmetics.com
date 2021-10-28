@@ -19,7 +19,8 @@
 }
 
 .product__info-wrapper {
-  max-width: 350px;
+  width: 100%;
+  max-width: 400px;
   margin: 0 auto;
   padding-left: 0;
   padding-bottom: 0;
@@ -779,10 +780,22 @@ a.product__text {
 /* product-card-shop */
 .product-card-shop{
   margin-bottom: 100px;
+  min-height: 500px;
+}
+
+.product-card-shop .grid{
+  align-items: center;
+}
+
+.product-card-shop .product{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: space-between;
 }
 
 .product-card-shop .product__media-wrapper{
-  max-width: 200px;
+  max-width: 300px;
   margin-bottom: 20px;
 }
 

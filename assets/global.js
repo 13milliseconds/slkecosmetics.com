@@ -499,26 +499,27 @@ class VariantSelects extends HTMLElement {
     this.addEventListener('change', this.onVariantChange);
   }
 
-  onVariantChange() {
-    this.updateOptions();
-    this.updateMasterId();
+  onVariantChange(e) {
+    let product = e.target.closest('.product');
+    this.updateOptions(product);
+    this.updateMasterId(product);
     this.toggleAddButton(true, '', false);
-    this.updatePickupAvailability();
+    this.updatePickupAvailability(product);
 
     if (!this.currentVariant) {
       this.toggleAddButton(true, '', true);
-      this.setUnavailable();
+      this.setUnavailable(product);
     } else {
-      this.updateMedia();
-      this.updateIngredients();
-      this.updateURL();
-      this.updateVariantInput();
-      this.renderProductInfo();
+      this.updateMedia(product);
+      this.updateIngredients(product);
+      this.updateURL(product);
+      this.updateVariantInput(product);
+      this.renderProductInfo(product);
     }
   }
 
-  updateOptions() {
-    this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);
+  updateOptions(product) {
+    this.options = Array.from(product.querySelectorAll('select'), (select) => select.value);
   }
 
   updateMasterId() {
@@ -555,10 +556,11 @@ class VariantSelects extends HTMLElement {
     window.history.replaceState({ }, '', `${this.dataset.url}?variant=${this.currentVariant.id}`);
   }
 
-  updateVariantInput() {
+  updateVariantInput(product) {
     console.log(this.dataset);
-    const productForms = document.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment`);
-    const variantLabel = document.getElementById('variantLabel');
+    const productForms = product.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment`);
+    const variantLabel = product.querySelector('#variantLabel');
+    console.log(this.currentVariant);
     variantLabel.innerHTML = this.currentVariant.title;
     productForms.forEach((productForm) => {
       const input = productForm.querySelector('input[name="id"]');
@@ -640,3 +642,10 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+  smooth: true,
+  scrollFromAnywhere: true
+});
+console.log("scroll:", sroll);

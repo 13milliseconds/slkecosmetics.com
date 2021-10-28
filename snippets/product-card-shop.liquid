@@ -8,9 +8,9 @@
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
-<section class="product-card-shop page-width">
+<section class="product-card-shop page-width" data-scroll>
   <div class="grid">
-  <div class="product grid__item">
+  <div class="product grid__item" data-scroll>
     <div class="product__media-wrapper">
       <a href="{{ product.url | default: '#' }}" class="full-unstyled-link">
       <img
@@ -51,11 +51,10 @@
         </div>
 
         {% comment %} Variant Selector {% endcomment %}
-        {%- unless product.has_only_default_variant -%}
+        {% comment %} {%- unless product.has_only_default_variant -%}
             <variant-radios class="no-js-hidden" data-section="{{  section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
               {%- for option in product.options_with_values -%}
                   <fieldset class="js product-form__input">
-                    {% comment %} <legend class="form__label">{{ option.name }}</legend> {% endcomment %}
                     {%- for value in option.values -%}
                       <input type="radio" id="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}"
                             name="{{ option.name }}"
@@ -65,7 +64,6 @@
                       >
                       <label class="{{ value | handleize }}"
                       for="{{ section.id }}-{{ option.name }}-{{ forloop.index0 }}">
-                        {% comment %} {{ value }} {% endcomment %}
                       </label>
                     {%- endfor -%}
                   </fieldset>
@@ -99,10 +97,10 @@
               {% render 'icon-caret' %}
             </div>
           </div>
-        </noscript>
+        </noscript> {% endcomment %}
 
         {% comment %} Buy Buttons {% endcomment %}
-        <div class="buy-buttons">
+        {% comment %} <div class="buy-buttons">
           <product-form class="product-form">
             {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
               <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
@@ -124,7 +122,7 @@
                 {%- endif -%}
               </div>
             {%- endform -%}
-          </product-form>
+          </product-form> {% endcomment %}
 
           {% comment %} {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
 
@@ -147,11 +145,11 @@
             </template>
           </pickup-availability> {% endcomment %}
           {% comment %} <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script> {% endcomment %}
-        </div>
+        {% comment %} </div> {% endcomment %}
       </div>
     </div>
   </div>
-  {%- render 'cart-notification' -%}
+  {% comment %} {%- render 'cart-notification' -%} {% endcomment %}
 
   <div class="grid__item">
   <div class="product-background">
@@ -159,6 +157,8 @@
       {%- if media.alt == 'background-1' -%}
         <img
           class="product-background-1"
+          data-scroll
+          data-scroll-speed=".9"
           srcset="{%- if media.preview_image.width >= 550 -%}{{ media.preview_image | img_url: '550x' }} 550w,{%- endif -%}
                   {%- if media.preview_image.width >= 1100 -%}{{ media.preview_image | img_url: '1100x' }} 1100w,{%- endif -%}
                   {%- if media.preview_image.width >= 1680 -%}{{ media.preview_image | img_url: '1680x' }} 1680w,{%- endif -%}
@@ -177,6 +177,8 @@
         {%- if media.alt == 'background-2' -%}
           <img
             class="product-background-2"
+            data-scroll
+            data-scroll-speed="3"
             srcset="{%- if media.preview_image.width >= 550 -%}{{ media.preview_image | img_url: '550x' }} 550w,{%- endif -%}
                     {%- if media.preview_image.width >= 1100 -%}{{ media.preview_image | img_url: '1100x' }} 1100w,{%- endif -%}
                     {%- if media.preview_image.width >= 1680 -%}{{ media.preview_image | img_url: '1680x' }} 1680w,{%- endif -%}
