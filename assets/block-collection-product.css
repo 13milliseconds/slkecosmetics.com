@@ -1,6 +1,7 @@
 #shop-collection-product-grid{
   list-style: none;
   padding-left: 0;
+  padding-top: 100px;
 }
 
 .product {
@@ -787,6 +788,10 @@ a.product__text {
   align-items: center;
 }
 
+#shop-collection-product-grid li:nth-child(2n) .grid{
+  flex-flow: row-reverse;
+}
+
 .product-card-shop .product{
   display: flex;
   flex-flow: column;
@@ -811,9 +816,12 @@ a.product__text {
 }
 
 .product-card-shop .product-background-2{
-  max-width: 300px;
+  max-height: 400px;
+  max-width: 200px;
+  width: auto;
+  height: auto;
   position: absolute;
   z-index: -1;
-  top: -100px;
+  top: 0;
   right: -100px;
 }

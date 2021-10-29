@@ -5,6 +5,8 @@
     "colors_text": "#000000",
     "colors_background_1": "#f5f5ee",
     "colors_background_2": "#edebdd",
+    "type_header_font": "assistant_n3",
+    "type_body_font": "assistant_n4",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

@@ -70,6 +70,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/landing-bodycare.jpg",
+        "show_border": true,
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -105,6 +106,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/landing-inspiration.jpg",
+        "show_border": true,
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -163,7 +165,7 @@
         "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
-        "show_secondary_image": true,
+        "show_secondary_image": false,
         "add_image_padding": false,
         "show_image_outline": false,
         "show_vendor": false

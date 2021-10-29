@@ -27,6 +27,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/philosophy-hero.jpg",
+        "show_border": false,
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"

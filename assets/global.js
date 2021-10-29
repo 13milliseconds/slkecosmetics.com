@@ -648,4 +648,3 @@ const scroll = new LocomotiveScroll({
   smooth: true,
   scrollFromAnywhere: true
 });
-console.log("scroll:", sroll);
