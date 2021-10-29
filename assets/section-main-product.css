@@ -98,6 +98,10 @@
   text-underline-offset: 0.3rem;
 }
 
+#product-form-installment{
+  margin-top: 20px;
+}
+
 .shopify-payment-button__button--hidden {
   display: none;
 }
