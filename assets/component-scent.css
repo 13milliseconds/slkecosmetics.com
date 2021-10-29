@@ -106,7 +106,7 @@
 }
 .scent__content .secondary-image{
   position: absolute;
-  top: -100%;
+  top: -100px;
   right: -50px;
   width: 200px;
   z-index: 1;

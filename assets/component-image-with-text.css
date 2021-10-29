@@ -15,6 +15,7 @@
 .image-with-text .grid {
   margin-left: 0;
   margin-bottom: 0;
+  align-items: center;
 }
 
 .image-with-text__grid {
@@ -29,10 +30,13 @@
 
 .image-with-text__media {
   background-color: transparent;
-  min-height: 100%;
+  /* min-height: 100%; */
+  position: relative;
+}
+
+.image-with-text.show-border .image-with-text__media{
   border: 2px solid rgb(var(--color-base-background-2));
   padding: 10px;
-  position: relative;
 }
 
 .image-with-text__media .media{

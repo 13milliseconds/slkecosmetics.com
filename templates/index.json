@@ -33,7 +33,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/desktop-background.jpg",
+        "image": "shopify:\/\/shop_images\/landing-hero.jpg",
         "desktop_text_box_position": "flex-end",
         "color_scheme": "background-1",
         "stack_images_on_mobile": true,
@@ -69,7 +69,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/rituals.jpg",
+        "image": "shopify:\/\/shop_images\/landing-bodycare.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -104,7 +104,7 @@
         "163364166408328aa9-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
+        "image": "shopify:\/\/shop_images\/landing-inspiration.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "image_first"
@@ -116,7 +116,7 @@
         "163364185250b6e359-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desktop-background.jpg",
+            "image": "shopify:\/\/shop_images\/hands-lathered-in-hand-cream-against-beige-background.jpg",
             "title": "Organic",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
@@ -124,7 +124,7 @@
         "163364185250b6e359-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desktop-background.jpg",
+            "image": "shopify:\/\/shop_images\/field-of-orange-flowers.jpg",
             "title": "Vegan",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }
@@ -132,7 +132,7 @@
         "163364185250b6e359-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/desktop-background.jpg",
+            "image": "shopify:\/\/shop_images\/cooling-the-countryside.jpg",
             "title": "Sustainable",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
           }

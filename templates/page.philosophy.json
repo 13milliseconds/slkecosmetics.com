@@ -1,5 +1,10 @@
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
     "1635267658463bed29": {
       "type": "image-with-text",
       "blocks": {
@@ -21,7 +26,7 @@
         "1635267658463bed29-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/rituals.jpg",
+        "image": "shopify:\/\/shop_images\/philosophy-hero.jpg",
         "height": "adapt",
         "color_scheme": "background-1",
         "layout": "text_first"
@@ -74,8 +79,8 @@
         "1635268816378b30a0-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
-        "image2": "shopify:\/\/shop_images\/lavender.png",
+        "image": "shopify:\/\/shop_images\/philosophy-istanbul.jpg",
+        "image2": "shopify:\/\/shop_images\/philosophy-newdelhi-ingredient2.png",
         "height": "adapt",
         "color_scheme": "istanbul"
       }
@@ -101,7 +106,7 @@
         "16352688370b435366-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
+        "image": "shopify:\/\/shop_images\/philosophy-london.jpg",
         "image2": "shopify:\/\/shop_images\/lavender.png",
         "height": "adapt",
         "color_scheme": "london"
@@ -128,14 +133,15 @@
         "16352694067d06892d-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
-        "image2": "shopify:\/\/shop_images\/lavender.png",
+        "image": "shopify:\/\/shop_images\/philosophy-newdelhi.jpg",
+        "image2": "shopify:\/\/shop_images\/philosophy-newdelhi-ingredient1.png",
         "height": "adapt",
         "color_scheme": "newdelhi"
       }
     }
   },
   "order": [
+    "main",
     "1635267658463bed29",
     "16352678876692d1a3",
     "1635268816378b30a0",
