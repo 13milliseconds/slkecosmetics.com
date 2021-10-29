@@ -12,9 +12,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "Welcome to our store",
-              "color_scheme": "accent-1",
-              "link": ""
+              "heading": "Enjoy complimentary standard delivery on all orders.",
+              "color_scheme": "background-2",
+              "link": "shopify:\/\/collections\/shop"
             }
           }
         },

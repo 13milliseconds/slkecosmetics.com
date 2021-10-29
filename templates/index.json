@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Immerse yourself in nature"
+            "heading": "Immerse yourself in natural skincare"
           }
         },
         "1c177f7a-dc1e-4486-9a98-706a55f54db8": {
@@ -18,8 +18,8 @@
         "button": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
+            "button_label_1": "Discover the Collection",
+            "button_link_1": "shopify:\/\/collections\/shop",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -59,7 +59,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now",
-            "button_link": "shopify:\/\/collections\/istanbul"
+            "button_link": "shopify:\/\/collections\/shop"
           }
         }
       },
@@ -158,14 +158,14 @@
       "type": "featured-collection",
       "settings": {
         "title": "Shop the Collection",
-        "collection": "all-products",
+        "collection": "shop",
         "products_to_show": 4,
-        "show_view_all": true,
+        "show_view_all": false,
         "swipe_on_mobile": true,
         "image_ratio": "adapt",
-        "show_secondary_image": false,
+        "show_secondary_image": true,
         "add_image_padding": false,
-        "show_image_outline": true,
+        "show_image_outline": false,
         "show_vendor": false
       }
     }

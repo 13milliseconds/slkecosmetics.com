@@ -3,8 +3,7 @@
 <div class="scent page-width color-scheme-{{ section.settings.color_scheme }}">
   <div class="color-{{ section.settings.color_scheme }}">
     <div class="scent__media scent__media--{{ section.settings.height }}">
-      <div data-scroll
-        data-scroll-speed="1"
+      <div
         class="{% if section.settings.image != blank %}{% else %}scent__media--placeholder placeholder{% endif %}">
       {%- if section.settings.image != blank -%}
         <img
@@ -41,7 +40,7 @@
         <img
           class="secondary-image"
           data-scroll
-          data-scroll-speed="-1"
+          data-scroll-speed="1"
           srcset="{%- if section.settings.image2.width >= 165 -%}{{ section.settings.image2 | img_url: '165x' }} 165w,{%- endif -%}
             {%- if section.settings.image2.width >= 360 -%}{{ section.settings.image2 | img_url: '360x' }} 360w,{%- endif -%}
             {%- if section.settings.image2.width >= 535 -%}{{ section.settings.image2 | img_url: '535x' }} 535w,{%- endif -%}

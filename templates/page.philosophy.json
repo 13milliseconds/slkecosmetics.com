@@ -1,0 +1,145 @@
+{
+  "sections": {
+    "1635267658463bed29": {
+      "type": "image-with-text",
+      "blocks": {
+        "4e3cc974-78d4-44b3-8710-c7c3b4492be7": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Philosophy"
+          }
+        },
+        "1635267658463bed29-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We make products designed with your real beauty routine in mind. Here you’ll find skincare, deodorant body care, and more, all painstakingly perfected to be worthy of your bathroom shelf.<\/p><p>SLKÉ was founded on the belief that beauty isn’t built in a boardroom—it happens when you’re a part of the process. We got our started with the idea that beauty, real beauty is a devotion to people using the products they love; that is good for their bodies. This is the source for inspiration and motivation.<\/p><p>Now, we’re building the future beauty company where everything we make starts with you. We create the products you tell us you wish existed, by immersing ourselves in the cultures of the world and using tried and tested ingredients in use for thousands of years. We believe in thoughtful design and enabling conversation (which is where it all starts). But most of all, we believe that beauty is about having fun, wherever you are in your journey.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "4e3cc974-78d4-44b3-8710-c7c3b4492be7",
+        "1635267658463bed29-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/rituals.jpg",
+        "height": "adapt",
+        "color_scheme": "background-1",
+        "layout": "text_first"
+      }
+    },
+    "16352678876692d1a3": {
+      "type": "rich-text",
+      "blocks": {
+        "16352678876692d1a3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our Scents",
+            "heading_size": "h1"
+          }
+        },
+        "16352678876692d1a3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16352678876692d1a3-0",
+        "16352678876692d1a3-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true
+      }
+    },
+    "1635268816378b30a0": {
+      "type": "scent-block",
+      "blocks": {
+        "1635268816378b30a0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Istanbul"
+          }
+        },
+        "1635268816378b30a0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1635268816378b30a0-0",
+        "1635268816378b30a0-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
+        "image2": "shopify:\/\/shop_images\/lavender.png",
+        "height": "adapt",
+        "color_scheme": "istanbul"
+      }
+    },
+    "16352688370b435366": {
+      "type": "scent-block",
+      "blocks": {
+        "16352688370b435366-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "London"
+          }
+        },
+        "16352688370b435366-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16352688370b435366-0",
+        "16352688370b435366-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
+        "image2": "shopify:\/\/shop_images\/lavender.png",
+        "height": "adapt",
+        "color_scheme": "london"
+      }
+    },
+    "16352694067d06892d": {
+      "type": "scent-block",
+      "blocks": {
+        "16352694067d06892d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "New Delhi"
+          }
+        },
+        "16352694067d06892d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16352694067d06892d-0",
+        "16352694067d06892d-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pexels-oziel-gomez-7529416-resized.jpg",
+        "image2": "shopify:\/\/shop_images\/lavender.png",
+        "height": "adapt",
+        "color_scheme": "newdelhi"
+      }
+    }
+  },
+  "order": [
+    "1635267658463bed29",
+    "16352678876692d1a3",
+    "1635268816378b30a0",
+    "16352688370b435366",
+    "16352694067d06892d"
+  ]
+}
