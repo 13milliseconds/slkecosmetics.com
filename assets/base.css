@@ -742,6 +742,10 @@ summary::-webkit-details-marker {
 /* component-title */
 .title,
 .title-wrapper-with-link {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 200;
+  letter-spacing: .1em;
   margin: 3rem 0 2rem;
 }
 

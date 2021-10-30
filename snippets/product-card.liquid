@@ -95,6 +95,7 @@
             </a>
           </span>
         {%- endif -%}
+        <h5>{{ product_card_product.title | escape }}</h5>
 
         {%- if show_description -%}
         <div class="product-information__description">
@@ -105,7 +106,11 @@
         {% comment %} TODO: metafield {% endcomment %}
         <span class="caption-large light">{{ block.settings.description | escape }}</span>
 
-        {% render 'price', product: product_card_product, price_class: '' %}
+        <a class="button button--secondary" href="{{ product_card_product.url | default: '#' }}" class="full-unstyled-link">
+          Shop Now
+          </a>
+
+        {% comment %} {% render 'price', product: product_card_product, price_class: '' %} {% endcomment %}
       </div>
     </div>
 </div>

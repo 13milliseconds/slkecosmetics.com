@@ -784,6 +784,18 @@ a.product__text {
   min-height: 500px;
 }
 
+.product-card-shop .button{
+  margin-top: 20px;
+}
+
+.product-card-shop .price:before{
+  content: "";
+  width: 60px;
+  border-bottom: 2px solid black;
+  padding-top: 12px;
+  margin-right: 10px;
+}
+
 .product-card-shop .grid{
   align-items: center;
 }

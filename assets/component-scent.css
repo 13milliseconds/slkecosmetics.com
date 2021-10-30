@@ -85,6 +85,7 @@
   fill: currentColor;
 }
 
+
 .scent__content {
   position: absolute;
   width: 50%;
@@ -94,6 +95,12 @@
   padding: 4rem 4rem 5rem;
   z-index: 1;
 }
+
+.shopify-section:nth-child(2n+1) .scent__content {
+  left: -20px;
+  right: auto;
+}
+
 .scent__content:after{
   content: '';
   width: calc(100% + 20px);

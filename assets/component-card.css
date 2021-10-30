@@ -44,6 +44,8 @@
 
 .card--product {
   position: relative;
+  max-width: 300px;
+  margin: auto;
 }
 
 .card--stretch {
@@ -156,6 +158,18 @@
   word-break: break-word;
 }
 
+.card-information{
+  text-align: center;
+}
+
+.card-information .h3{
+  text-transform: uppercase;
+}
+
+.card-information h5{
+  color: var(--color-base-accent-2);
+}
+
 .card-information__text {
   margin-top: 10px;
   display: block;
@@ -176,7 +190,7 @@
 }
 
 .card-information__wrapper > *:not(.visually-hidden:first-child) + * {
-  margin-top: 1.1rem;
+  margin-top: 5px;
 }
 
 .card-information__wrapper .caption {
