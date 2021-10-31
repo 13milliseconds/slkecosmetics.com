@@ -643,8 +643,13 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
-  smooth: true,
-  scrollFromAnywhere: true
-});
+if (document.querySelector('[data-scroll]')) {
+  console.log(document.querySelector('[data-scroll]'))
+  setTimeout(() => {
+    const scroll = new LocomotiveScroll({
+      el: document.querySelector('[data-scroll-container]'),
+      smooth: true,
+      scrollFromAnywhere: true
+  });
+  }, 100); 
+}

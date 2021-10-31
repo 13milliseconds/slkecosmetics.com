@@ -66,6 +66,8 @@
 
 .multicolumn:not(.background-none) .multicolumn-card {
   height: 100%;
+  max-width: 350px;
+  margin: auto;
 }
 
 .multicolumn.background-secondary {

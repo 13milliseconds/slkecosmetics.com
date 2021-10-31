@@ -7,6 +7,7 @@
     "colors_background_2": "#edebdd",
     "type_header_font": "assistant_n3",
     "type_body_font": "assistant_n4",
+    "page_width": "1200",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

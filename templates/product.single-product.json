@@ -24,6 +24,15 @@
           "settings": {
           }
         },
+        "e68af848-aef5-4ab8-9d7f-150a89c10004": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Ingredients",
+            "content": "",
+            "page": "",
+            "icon": "check_mark"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -32,7 +41,7 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         }
       },
@@ -41,6 +50,7 @@
         "price",
         "variant_picker",
         "description",
+        "e68af848-aef5-4ab8-9d7f-150a89c10004",
         "quantity_selector",
         "buy_buttons"
       ],
@@ -59,10 +69,36 @@
         "show_image_outline": true,
         "show_vendor": false
       }
+    },
+    "16356421685b5cf995": {
+      "type": "ingredients-block",
+      "blocks": {
+        "16356421685b5cf995-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ingredient Name"
+          }
+        },
+        "16356421685b5cf995-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16356421685b5cf995-0",
+        "16356421685b5cf995-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "color_scheme": "background-1"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16356421685b5cf995"
   ]
 }

@@ -20,6 +20,7 @@
 
 .image-with-text__grid {
   overflow: hidden;
+  padding: 50px 0;
 }
 
 @media screen and (min-width: 750px) {
@@ -31,22 +32,35 @@
 .image-with-text__media {
   background-color: transparent;
   /* min-height: 100%; */
+  padding: 0!important;
   position: relative;
   max-width: 500px;
   margin: auto;
 }
 
-.image-with-text.show-border .image-with-text__media{
+.image-with-text.show-border .image-with-text__media:after{
   border: 2px solid rgb(var(--color-base-background-2));
-  padding: 10px;
+  content: "";
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: calc(100% + 20px);
+  height: calc(100% + 20px);
 }
 
 .image-with-text__media .media{
-  top: 10px;
+  overflow: auto;
+}
+.image-with-text__media .media img{
+  position: relative;
+}
+
+.image-with-text__media .media{
+  /* top: 10px;
   left: 10px;
   position: absolute;
   height: calc(100% - 20px);
-  width: calc(100% - 20px);
+  width: calc(100% - 20px); */
 }
 
 .image-with-text__media--small {
