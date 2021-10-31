@@ -1,7 +1,12 @@
 #shop-collection-product-grid{
   list-style: none;
   padding-left: 0;
-  padding-top: 100px;
+}
+
+@media screen and (min-width: 750px) {
+  #shop-collection-product-grid{
+    padding-top: 100px;
+  }
 }
 
 .product {
@@ -800,8 +805,16 @@ a.product__text {
   align-items: center;
 }
 
-#shop-collection-product-grid li:nth-child(2n) .grid{
-  flex-flow: row-reverse;
+@media screen and (max-width: 749px) {
+  .product-card-shop .grid{
+    flex-flow: column-reverse;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  #shop-collection-product-grid li:nth-child(2n) .grid{
+    flex-flow: row-reverse;
+  }
 }
 
 .product-card-shop .product{

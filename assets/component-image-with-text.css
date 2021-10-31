@@ -38,6 +38,12 @@
   margin: auto;
 }
 
+@media screen and (max-width: 750px) {
+  .image-with-text__media {
+    margin-bottom: 20px;
+  }
+}
+
 .image-with-text.show-border .image-with-text__media:after{
   border: 2px solid rgb(var(--color-base-background-2));
   content: "";

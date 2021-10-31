@@ -856,8 +856,8 @@ summary::-webkit-details-marker {
 .grid__item {
   padding-left: 0.5rem;
   padding-bottom: 0.5rem;
-  width: calc(25% - 0.5rem * 3 / 4);
-  max-width: 50%;
+  width: calc(100% - 0.5rem * 3 / 4);
+  max-width: 100%;
   flex-grow: 1;
   flex-shrink: 0;
 }
@@ -1680,6 +1680,17 @@ input[type='checkbox'] {
 
 #shopify-section-header.animate {
   transition: transform 0.15s ease-out;
+}
+
+/* Sections */
+@media screen and (max-width: 749px) {
+  .shopify-section:first-child .image-with-text{
+    margin-top: 0;
+  }
+
+  .shopify-section:first-child .image-with-text .image-with-text__grid{
+    padding-top: 0;
+  }
 }
 
 /* Main Header Layout */
