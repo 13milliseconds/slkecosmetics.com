@@ -7,7 +7,7 @@
     "colors_background_2": "#edebdd",
     "type_header_font": "assistant_n3",
     "type_body_font": "assistant_n4",
-    "page_width": "1200",
+    "page_width": "1600",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -15,7 +15,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "heading": "Enjoy complimentary standard delivery on all orders.",
+              "heading": "Enjoy free delivery on all orders over £100",
               "color_scheme": "background-2",
               "link": "shopify:\/\/collections\/shop"
             }
