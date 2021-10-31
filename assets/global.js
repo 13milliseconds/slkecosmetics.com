@@ -512,6 +512,7 @@ class VariantSelects extends HTMLElement {
     } else {
       this.updateMedia(product);
       this.updateIngredients(product);
+      this.updateScent(product);
       this.updateURL(product);
       this.updateVariantInput(product);
       this.renderProductInfo(product);
@@ -543,10 +544,23 @@ class VariantSelects extends HTMLElement {
 
   updateIngredients() {
     const ingredientsBlocks = document.querySelectorAll('.ingredients-list');
+    const ingredientsImages = document.querySelectorAll('.variant-ingredient-image');
     if (ingredientsBlocks) {
       ingredientsBlocks.forEach((ingredientsBlock) => {
-        console.log(this.currentVariant);
         ingredientsBlock.style.display = ingredientsBlock.classList.contains(this.currentVariant.id) ? "block" : "none";
+      })
+    }
+    if (ingredientsImages) {
+      ingredientsImages.forEach((ingredientsImage) => {
+        ingredientsImage.style.display = ingredientsImage.classList.contains(this.currentVariant.id) ? "flex" : "none";
+      })
+    }
+  }
+  updateScent() {
+    const scentBlocks = document.querySelectorAll('.scent-description');
+    if (scentBlocks) {
+      scentBlocks.forEach((scentBlock) => {
+        scentBlock.style.display = scentBlock.classList.contains(this.currentVariant.id) ? "block" : "none";
       })
     }
   }

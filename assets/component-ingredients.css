@@ -32,6 +32,7 @@
   margin-left: 0;
   margin-bottom: 0;
   background: transparent;
+  align-items: center;
 }
 
 .ingredients__grid {
@@ -52,19 +53,37 @@
 .ingredients__media .media{
   top: 10px;
   left: 10px;
-  position: absolute;
+  overflow: initial;
+  display: flex;
+  /* position: absolute;
   height: 100%;
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: center;*/
+  position: relative;
+  background: transparent; 
   justify-content: center;
-  background: transparent;
+}
+
+.ingredients__media .media .media-wrap{
+  position: relative;
+  width: auto;
 }
 
 .ingredients__media .media img{
   max-width: 400px;
   height: auto;
   position: relative;
+  margin: auto;
+}
+.ingredients__media .media img.ingredient-image{
+  position: absolute;
+  top: 0;
+  right: 0;
+  max-height: 300px;
+  width: auto;
+  z-index: -1;
 }
 
 .ingredients__media--small {
