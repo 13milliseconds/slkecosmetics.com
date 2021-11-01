@@ -571,10 +571,8 @@ class VariantSelects extends HTMLElement {
   }
 
   updateVariantInput(product) {
-    console.log(this.dataset);
     const productForms = product.querySelectorAll(`#product-form-${this.dataset.section}, #product-form-installment`);
     const variantLabel = product.querySelector('#variantLabel');
-    console.log(this.currentVariant);
     variantLabel.innerHTML = this.currentVariant.title;
     productForms.forEach((productForm) => {
       const input = productForm.querySelector('input[name="id"]');
@@ -657,13 +655,21 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 
-if (document.querySelector('[data-scroll]')) {
-  console.log(document.querySelector('[data-scroll]'))
-  setTimeout(() => {
-    const scroll = new LocomotiveScroll({
-      el: document.querySelector('[data-scroll-container]'),
-      smooth: true,
-      scrollFromAnywhere: true
+if (document.querySelector('[data-scroll]') && window.innerWidth > 749) {
+  const scroll = new LocomotiveScroll({
+    el: document.querySelector('[data-scroll-container]'),
+    smooth: true,
+    scrollFromAnywhere: true
   });
-  }, 100); 
+
+  window.addEventListener('load', function () {
+    scroll.init()
+  })
+
+  var variantSelector = document.querySelector('variant-radios');
+  variantSelector.addEventListener('click', () => {
+    setTimeout(() => {
+      scroll.init()
+    }, 100);
+  })
 }

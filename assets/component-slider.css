@@ -114,6 +114,7 @@ slider-component .slider-buttons {
 .slider-buttons {
   display: flex;
   align-items: center;
+  display: none;
 }
 
 @media screen and (min-width: 990px) {
