@@ -99,6 +99,11 @@
   position: relative;
   width: 100%;
   justify-content: flex-start;
+  color: white;
+}
+
+.banner__content h2{
+  color: white;
 }
 
 @media screen and (min-width: 750px) {
