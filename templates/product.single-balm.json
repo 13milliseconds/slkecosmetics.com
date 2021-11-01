@@ -62,18 +62,6 @@
     "16356421685b5cf995": {
       "type": "ingredients-block",
       "blocks": {
-        "16356421685b5cf995-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Our Scent"
-          }
-        },
-        "16356421685b5cf995-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>##scent##<\/p>"
-          }
-        },
         "4b982cd8-4795-49a3-888d-3aea7cbbe481": {
           "type": "heading",
           "settings": {
@@ -100,8 +88,6 @@
         }
       },
       "block_order": [
-        "16356421685b5cf995-0",
-        "16356421685b5cf995-1",
         "4b982cd8-4795-49a3-888d-3aea7cbbe481",
         "60b8e12c-3578-4a40-98a3-809fb3d4e9f2",
         "6b28add6-dd81-448a-a510-c747590db413",

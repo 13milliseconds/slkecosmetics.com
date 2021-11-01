@@ -1,5 +1,10 @@
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+      }
+    },
     "1635267658463bed29": {
       "type": "image-with-text",
       "blocks": {
@@ -12,7 +17,7 @@
         "1635267658463bed29-1": {
           "type": "text",
           "settings": {
-            "text": "<p><br\/><\/p><p>We’re SLKÉ, pronounced [sɪlk]. We make products designed with your real beauty routine in mind. Here you’ll find skincare, deodorant body care, and more, all painstakingly perfected to be worthy of your bathroom shelf.<\/p><p>SLKÉ was founded on the belief that beauty isn’t built in a boardroom—it happens when you’re a part of the process. We got our started with the idea that beauty, real beauty is a devotion to people using the products they love; that is good for their bodies. This is the source for inspiration and motivation.<\/p><p>Now, we’re building the future beauty company where everything we make starts with you. We create the products you tell us you wish existed, by immersing ourselves in the cultures of the world and using tried and tested ingredients in use for thousands of years. We believe in thoughtful design and enabling conversation (which is where it all starts). But most of all, we believe that beauty is about having fun, wherever you are in your journey.<\/p>"
+            "text": "<p>We’re SLKÉ, pronounced [sɪlk]. We make products designed with your real beauty routine in mind. Here you’ll find skincare, deodorant body care, and more, all painstakingly perfected to be worthy of your bathroom shelf.<br\/><br\/>SLKÉ was founded on the belief that beauty isn’t built in a boardroom—it happens when you’re a part of the process. We got started with the idea that beauty, real beauty is a devotion to people using the products they love; that is good for their bodies.<br\/><br\/>By creating the products you tell us you wish existed, by immersing ourselves in the cultures of the world and using tried and tested ingredients in use for thousands of years. This is the source of our inspiration and motivation.<\/p>"
           }
         }
       },
@@ -129,7 +134,7 @@
         "16352694067d06892d-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/philosophy-newdelhi.jpg",
+        "image": "shopify:\/\/shop_images\/philosophy-newdelhi_750x_copy_1.jpg",
         "image2": "shopify:\/\/shop_images\/philosophy-newdelhi-ingredient1.png",
         "height": "adapt",
         "color_scheme": "newdelhi"
@@ -137,6 +142,7 @@
     }
   },
   "order": [
+    "main",
     "1635267658463bed29",
     "16352678876692d1a3",
     "16352688370b435366",

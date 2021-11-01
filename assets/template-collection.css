@@ -17,6 +17,15 @@
   .collection .title-wrapper-with-link--no-heading {
     margin-top: 6rem;
   }
+
+  .template-collection .header,
+.template-collection .header-wrapper{
+  background-color: transparent;
+}
+
+.template-collection .shopify-section-header-sticky{
+  background-color: rgb(var(--color-background));
+}
 }
 
 .collection .loading-overlay {
