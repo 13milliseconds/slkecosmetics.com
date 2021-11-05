@@ -167,7 +167,9 @@
 }
 
 .card-information h5{
+  display: block;
   color: var(--color-base-accent-2);
+  min-height: 1.4em;
 }
 
 .card-information__text {

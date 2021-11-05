@@ -12,15 +12,16 @@ class ProductForm extends HTMLElement {
     this.cartNotification.setActiveElement(document.activeElement);
     
     const submitButton = this.querySelector('[type="submit"]');
-
+    
     submitButton.setAttribute('disabled', true);
     submitButton.classList.add('loading');
-
+    
     const body = JSON.stringify({
       ...JSON.parse(serializeForm(this.form)),
       sections: this.cartNotification.getSectionsToRender().map((section) => section.id),
       sections_url: window.location.pathname
     });
+    console.log(JSON.parse(serializeForm(this.form)));
 
     fetch(`${routes.cart_add_url}`, { ...fetchConfig('javascript'), body })
       .then((response) => response.json())
