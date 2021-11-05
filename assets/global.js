@@ -667,9 +667,11 @@ if (document.querySelector('[data-scroll]') && window.innerWidth > 749) {
   })
 
   var variantSelector = document.querySelector('variant-radios');
-  variantSelector.addEventListener('click', () => {
-    setTimeout(() => {
-      scroll.init()
-    }, 100);
-  })
+  if (variantSelector) {
+    variantSelector.addEventListener('click', () => {
+      setTimeout(() => {
+        scroll.init()
+      }, 100);
+    }) 
+  }
 }
