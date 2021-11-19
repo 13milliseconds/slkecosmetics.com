@@ -7,7 +7,7 @@
         {% if section.settings.height == 'adapt' and section.settings.image != blank %} style="padding-bottom: {{ 1 | divided_by: section.settings.image.aspect_ratio | times: 100 }}%;"{% endif %}
       >
           {%- for variant in product.variants -%}
-            {%- assign media = variant.metafields.descriptors.bottle_image -%}
+            {%- assign media = variant.metafields.descriptors.ingredientsimage -%}
             <div class="media variant-ingredient-image {{ variant.id }}" {% if product.selected_or_first_available_variant.id != variant.id %}style="display: none;"{% endif %}>
               <div class="media-wrap">
               <img
@@ -25,7 +25,7 @@
                 width="{{ media.width }}"
                 height="{{ media.height }}"
               >
-              {%- assign media = variant.metafields.descriptors.ingredient-image -%}
+              {% comment %} {%- assign media = variant.metafields.descriptors.ingredient-image -%}
               <img
                 data-scroll
                 data-scroll-speed="2"
@@ -42,7 +42,7 @@
                 loading="lazy"
                 width="{{ media.width }}"
                 height="{{ media.height }}"
-              >
+              > {% endcomment %}
             </div>
             </div>
           {%- endfor -%}
